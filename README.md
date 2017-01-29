@@ -1,2 +1,2 @@
 # playback-game
-A top-down slasher.
+A top-down medevil slasher.
