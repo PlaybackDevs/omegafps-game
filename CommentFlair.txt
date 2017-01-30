@@ -1,4 +1,8 @@
-/*			                   *\
+Just to be clear, this file should be used on any source files "INTERNAL" to the game engine.
+
+
+
+/*			                              *\
 
 This file is part of Playback version 0.1 Alpha.
 
@@ -8,4 +12,4 @@ the person(s) who did such.
 
 Copyright (c) 2017 createjump & Spectre.
 
-\*			                   */
+\*			                              */
