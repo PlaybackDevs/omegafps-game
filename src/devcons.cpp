@@ -9,13 +9,11 @@ Copyright (c) 2017 createjump & Spectre.
 #include <iostream>
 
 
-namespace playback
-{
-void init(){
-std::cout << "Playback Version 0.01 alpha init" << std::endl;
+typedef int CVAR_INT;
+typedef std::string CVAR_STR;
+typedef bool CVAR_BOOL;
 
-// TODO: Call initalization functions here
-}
+namespace playback{
 
 
 }
