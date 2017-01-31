@@ -15,7 +15,7 @@ class Player
 
         std::string player_name;
 
-    protected:
+    
 
     private:
         unsigned int m_playerid;
