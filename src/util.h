@@ -1,3 +1,5 @@
+#ifndef UTIL_INCLUDED
+#define UTIL_INCLUDED
 /*			                   *\
 
 This file is part of Playback version 0.1 Alpha.
@@ -9,21 +11,16 @@ the person(s) who did such.
 Copyright (c) 2017 createjump & Spectre.
 
 \*			                   */
-
-
-
-
 #include <iostream>
-#include <stdio.h>
-#include "util.h"
 
 
-using namespace std;
-
-int main(int argc, char *argv[])
+namespace playback
 {
-// TODO: Add logic for EVERYTHING
-playback::init();
+void init();
+
+
 }
 
 
+
+#endif // UTIL_INCLUDED
