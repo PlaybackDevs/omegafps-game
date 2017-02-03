@@ -16,10 +16,14 @@ Copyright (c) 2017 createjump & Spectre.
 
 using namespace std;
 
+using namespace playback;
+using namespace playback::Logger;
+
 int main(int argc, char *argv[])
 {
 // TODO: Add logic for EVERYTHING
 playback::init();
+Log("Hey look it works from main w/out namespace!", __FILE__ , __LINE__);
 }
 
 
