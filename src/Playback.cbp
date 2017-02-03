@@ -36,6 +36,10 @@
 		<Unit filename="CommentFlair.txt">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="devcons.cpp" />
+		<Unit filename="devcons.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="util.cpp" />
 		<Unit filename="util.h" />

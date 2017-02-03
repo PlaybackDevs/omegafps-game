@@ -7,24 +7,15 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 #include <iostream>
+#include "devcons.h"
 
-
-struct Vector3 {
-float x;
-float y;
-float z;
-}
-struct Vector2{
-float x;
-float y;
-}
 
 
 namespace playback
 {
 void init(){
 std::cout << "Playback Version 0.01 alpha init" << std::endl;
-
+playback::Logger::Log("Playback init complete", __FILE__, __LINE__ );
 // TODO: Call initalization functions here
 }
 

@@ -9,16 +9,17 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 #include <iostream>
+#include "devcons.h"
 
 struct Vector3 {
 float x;
 float y;
 float z;
-}
+};
 struct Vector2{
 float x;
 float y;
-}
+};
 
 namespace playback
 {
