@@ -3,6 +3,7 @@ language: cpp
 env:
  - dir=./src/
 before_script:
+  - sudo apt-get -qq update
   - sudo apt-get install cbp2make
 script:
   - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
@@ -12,6 +13,7 @@ script:
 addons:
   apt:
     sources:
+    - rebel
     - ubuntu-toolchain-r-test
     packages:
     - cbp2make
