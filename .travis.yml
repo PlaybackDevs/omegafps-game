@@ -1,0 +1,19 @@
+sudo: required
+env:
+ - dir=./src/
+
+before_script:
+  - sudo apt-get install cbp2make
+script:
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - cbp2make -in $(dir) -out Makefile
+  - cd $(dir)
+  - make Debug
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - cbp2make
+    - gcc-5
+    - g++-5
