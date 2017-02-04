@@ -11,6 +11,7 @@ Next, make sure you have [GLFW](http://glfw.org/) and built if you aren't runnin
 
 Install the [Linux DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSLVV6Yi1VOUZNalE) here.
 After completing first steps, and platform specific first step, open the project file, then click "Build". 
+
 ## Windows
 
 Install the [Windows DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSR09EdU9ubG5hM0k) here. 
