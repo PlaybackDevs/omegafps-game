@@ -1,0 +1,8 @@
+These are all the libs required by render_ogl compiled for GCC 5.
+
+If you use TDM (Windows), then you're sadly on your own.
+
+
+Also here's the docs for GLFW.
+
+http://www.glfw.org/documentation.html

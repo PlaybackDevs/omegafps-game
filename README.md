@@ -5,7 +5,7 @@ A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your b
 
 ## Prerequisites
 Make sure you installed your DevTools Pack for your specific platform.
-Next, make sure you have [GLFW](http://glfw.org/) and [GLEW](http:/glew.sourceforge.net) built.
+Next, make sure you have [GLFW](http://glfw.org/) and built if you aren't running Linux and GCC 5.
  
 ## Linux
 

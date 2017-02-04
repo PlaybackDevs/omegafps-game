@@ -17,13 +17,13 @@ Copyright (c) 2017 createjump & Spectre.
 using namespace std;
 
 using namespace playback;
-using namespace playback::Logger;
+
 
 int main(int argc, char *argv[])
 {
 // TODO: Add logic for EVERYTHING
 playback::init();
-Log("program exit", __FILE__ , __LINE__);
+::Logger::Log("Game finished- exiting now", __FILE__ , __LINE__);
 }
 
 

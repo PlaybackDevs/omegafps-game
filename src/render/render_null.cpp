@@ -7,16 +7,21 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 
-// A null renderer
+// A null renderer so that we can get shit done.
 
-#include "util.h"
+#include "../devcons.h"
+
+using namespace playback;
+using namespace playback::Logger;
 
 
 namespace playback{
 
 namespace render{
 void RenderInit(){
+// damn you stub functions
 Log("Null render init", __FILE__, __LINE__);
+
 }
 }
 
