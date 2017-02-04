@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 {
 // TODO: Add logic for EVERYTHING
 playback::init();
-Log("well here goes noting billy", __FILE__ , __LINE__);
+Log("program exit", __FILE__ , __LINE__);
 }
 
 
