@@ -28,14 +28,14 @@ Pass __FILE__ and __LINE__ to the respective function arguments.
 
 */
 
-void Log(std::string info, char* file , int line){
-std::cout << "[INFO] " << info << "(" << file << ":"<< line << ")"<< std::endl;
+void Log(std::string info , std::string prog_part , char* file , int line){
+std::cout << "[INFO/" << prog_part << "] " << info << "(" << file << ":"<< line << ")"<< std::endl;
 }
-void Warning(std::string info, char* file , int line){
-std::cout << "[WARN] " << info << "(" << file << ":"<< line << ")"<< std::endl;
+void Warning(std::string info , std::string prog_part , char* file , int line){
+std::cout << "[WARN/" << prog_part << "] " << info << "(" << file << ":"<< line << ")"<< std::endl;
 }
-void Assert(std::string info, char* file , int line){
-std::cout << "[ERROR] " << info << "(" << file << ":"<< line << ")"<< std::endl;
+void Assert(std::string info , std::string prog_part , char* file , int line){
+std::cout << "[ERROR/" << prog_part << "] " << info << "(" << file << ":"<< line << ")"<< std::endl;
 exit(1);
 }
 

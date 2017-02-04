@@ -17,7 +17,7 @@ namespace playback
 void init(){
 std::cout << "Playback Version 0.01 alpha init" << std::endl;
 playback::render::RenderInit();
-playback::Logger::Log("Playback init complete", __FILE__, __LINE__ );
+playback::Logger::Log("Playback init complete", "INIT" , __FILE__, __LINE__ );
 
 }
 

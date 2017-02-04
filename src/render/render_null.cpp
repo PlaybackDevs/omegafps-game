@@ -20,7 +20,7 @@ namespace playback{
 namespace render{
 void RenderInit(){
 // damn you stub functions
-Log("Null render init", __FILE__, __LINE__);
+Log("Null render init", "RENDER" , __FILE__, __LINE__);
 
 }
 }

@@ -18,9 +18,9 @@ namespace playback
 
 
 namespace Logger{
-void Log(std::string info, char* file , int line);
-void Warning(std::string info, char* file , int line);
-void Assert(std::string info, char* file , int line);
+void Log(std::string info , std::string prog_part , char* file , int line);
+void Warning(std::string info , std::string prog_part , char* file , int line);
+void Assert(std::string info , std::string prog_part , char* file , int line);
 }
 
 }

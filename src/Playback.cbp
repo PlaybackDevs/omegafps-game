@@ -12,21 +12,34 @@
 				<Option type="1" />
 				<Option compiler="gnu_gcc_compiler_5" />
 				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="extern_libs/glfw3/include" />
 				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+					<Add library="extern_libs/glfw3/lib/libglfw3.a" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Playback" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
-				<Option compiler="gcc" />
+				<Option compiler="gnu_gcc_compiler_5" />
 				<Compiler>
-					<Add option="-O2" />
+					<Add option="-march=core2" />
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
 					<Add directory="include" />
+					<Add directory="extern_libs/glfw3/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="extern_libs/glfw3/lib/libglfw3.a" />
 				</Linker>
 			</Target>
 		</Build>
@@ -41,6 +54,8 @@
 		<Unit filename="devcons.cpp" />
 		<Unit filename="devcons.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="render/render_null.cpp" />
+		<Unit filename="render/render_null.h" />
 		<Unit filename="util.cpp" />
 		<Unit filename="util.h" />
 		<Extensions>
