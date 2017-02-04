@@ -1,7 +1,7 @@
 sudo: required
+language: cpp
 env:
  - dir=./src/
-
 before_script:
   - sudo apt-get install cbp2make
 script:
