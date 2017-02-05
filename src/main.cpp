@@ -19,8 +19,7 @@ using namespace std;
 using namespace playback;
 
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
 // TODO: Add logic for EVERYTHING
 playback::init();
 ::Logger::Log("Game finished- exiting now","MAIN" ,  __FILE__ , __LINE__);

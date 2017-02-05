@@ -23,9 +23,12 @@ namespace playback{
 
 namespace render{
 void RenderInit(){
+
 if (!glfwInit()){
 Assert("GLFW no worky!","OGL", __FILE__, __LINE__ );
 }
+// no else needed!
+
 Log("ogl3 init: if you see this, good news is here!", "OGL" , __FILE__, __LINE__);
 
 }
