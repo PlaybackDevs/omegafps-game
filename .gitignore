@@ -33,6 +33,9 @@
 *.mp4
 *.depend
 
+# Nano swp
+*.swp
+
 src/obj/
 
 src/bin
