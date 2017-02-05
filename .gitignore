@@ -36,8 +36,9 @@
 # Nano swp
 *.swp
 
+src/ver.h
+
 src/obj/
 
 src/bin
 
-gource_scripts/
