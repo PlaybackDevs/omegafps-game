@@ -1,2 +1,2 @@
-# simply run gource (cool if you want to see how things are doing, but useless for other things)
-gource --user-image-dir ./devs_images/ -1280x720 -key
+# Run Gource 
+gource --user-image-dir ./devs_images/ -1280x720 -font-size 24 -seconds-per-day 5 -key -date-format "%A, %b %d %I:%M%p %Z" -title "Playback Progress as of $(date +%x)"
