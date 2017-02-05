@@ -12,7 +12,7 @@ Copyright (c) 2017 createjump & Spectre.
 #include <iostream>
 #include <stdio.h>
 #include "util.h"
-#include "ver.h"
+
 
 using namespace std;
 
