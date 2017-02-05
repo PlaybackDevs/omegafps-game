@@ -7,7 +7,8 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 
-// OGL3
+
+#include <GLFW/glfw3.h>
 
 
 

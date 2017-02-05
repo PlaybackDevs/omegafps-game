@@ -15,11 +15,14 @@ Copyright (c) 2017 createjump & Spectre.
 namespace playback
 {
 void init(){
-std::cout << "Playback Version 0.01 alpha init" << std::endl;
+playback::Logger::Log("Initfunc called", "INIT", __FILE__, __LINE__);
 playback::render::RenderInit();
 playback::Logger::Log("Playback init complete", "INIT" , __FILE__, __LINE__ );
 
 }
 
+void Destruct(){
+glfwTerminate();
+}
 
 }

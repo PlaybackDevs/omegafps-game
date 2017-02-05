@@ -24,8 +24,7 @@ float y;
 namespace playback
 {
 void init();
-
-
+void Destruct();
 }
 
 
