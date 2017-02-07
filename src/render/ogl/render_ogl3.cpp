@@ -27,7 +27,7 @@ void RenderInit(){
 if (!glfwInit()){
 Assert("GLFW no worky!","OGL", __FILE__, __LINE__ );
 }
-// no else needed!
+
 Log("Window creation process ready", "OGL" , __FILE__, __LINE__);
 GLFWwindow *wnd;
 

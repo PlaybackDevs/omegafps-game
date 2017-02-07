@@ -56,9 +56,11 @@
 		<Unit filename="render/ogl/render_ogl3.h" />
 		<Unit filename="util.cpp" />
 		<Unit filename="util.h" />
+		<Unit filename="ver.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
