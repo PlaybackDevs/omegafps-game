@@ -1,5 +1,6 @@
 # Playback
 A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your boat).
+[Go to Devlog](/devlog) 
 
 # Build Instructions
 
@@ -16,3 +17,4 @@ After completing first steps, and platform specific first step, open the project
 
 Install the [Windows DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSR09EdU9ubG5hM0k) here. 
 After completing first steps, and platform specific first step, open the project file, then click "Build".
+
