@@ -1,7 +1,7 @@
 # Development Log
 
 ## Notice!
-Code blocks are 1tab!
+Code blocks are a new line and 1 tab!
 
         printf("Like this!");
 
