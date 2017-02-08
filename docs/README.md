@@ -1,6 +1,6 @@
 # Playback
 A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your boat).
-[Go to Devlog](/devlog) 
+[Go to Devlog](devlog) 
 
 # Build Instructions
 
