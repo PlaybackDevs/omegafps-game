@@ -1,6 +1,6 @@
 # Playback
 A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your boat).
-[Go to Devlog](devlog) 
+Development log is https://playbackdevs.github.io/playback-game/devlog
 
 # Build Instructions
 
