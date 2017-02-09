@@ -18,6 +18,6 @@ Install the [Windows DevTools Pack](https://drive.google.com/open?id=0B28NeVjWww
 After completing first steps, and platform specific first step, open the project file, then click "Build". 
 
 # What is the "devs_images" folder?
-That folder is used for gource. If you at least made 1 commit, your profile image will be put in that folder for progress report videos.
+That folder is used for gource. If you become a new contributer, your profile image will be put in that folder for progress report videos.
 
 
