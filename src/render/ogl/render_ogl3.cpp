@@ -27,7 +27,7 @@ void RenderInit(){
 if (!glfwInit()){
 Assert("GLFW no worky!","OGL", __FILE__, __LINE__ );
 }
-
+#ifdef _WNDTEST
 Log("Window creation process ready", "OGL" , __FILE__, __LINE__);
 GLFWwindow *wnd;
 
@@ -48,7 +48,8 @@ Log("We made it this far!", "OGL", __FILE__, __LINE__);
         /* Poll for and process events */
         glfwPollEvents();
     }
-
+#endif
+    
 }
 }
 
