@@ -9,13 +9,11 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 #include <iostream>
-#ifdef _GIVEMEVER
-#define ver_enable
-#endif // _GIVEMEVER
 
 
 #include "devcons.h"
 #include "render/ogl/window.h"
+#include "ver.h"
 
 struct Vector3 {
 float x;
