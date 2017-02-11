@@ -33,6 +33,7 @@ while (!glfwWindowShouldClose(w1.wnd)){
 
         glfwPollEvents();
 }
+
 playback::Destruct();
 playback::Logger::Log("Program loop over","MAIN" ,  __FILE__ , __LINE__);
 }

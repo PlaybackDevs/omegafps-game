@@ -7,8 +7,6 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 
-// OpenGL 3 render (YES! We're finally getting somewhere!)
-
 #include "../../devcons.h"
 #include <GLFW/glfw3.h>
 
