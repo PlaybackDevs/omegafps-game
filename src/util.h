@@ -15,6 +15,7 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 #include "devcons.h"
+#include "render/ogl/window.h"
 
 struct Vector3 {
 float x;

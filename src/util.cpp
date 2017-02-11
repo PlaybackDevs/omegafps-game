@@ -9,6 +9,7 @@ Copyright (c) 2017 createjump & Spectre.
 #include <iostream>
 #include "devcons.h"
 #include "render/ogl/render_ogl3.h"
+#include "render/ogl/window.h"
 #ifdef _GIVEMEVER
 #define ver_enable
 #endif // _GIVEMEVER

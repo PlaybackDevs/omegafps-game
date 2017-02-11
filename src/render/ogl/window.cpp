@@ -1,17 +1,18 @@
-// temp comment until i go home
+/*			                   *\
+
+This file is part of Playback version 0.3-a.
+
+Copyright (c) 2017 createjump & Spectre.
+
+\*			                   */
+#include "render_ogl3.h"
+#include "window.h"
 
 
-class Window{
-private:
-int m_WndXsiz;
-int m_wndYsiz;
-public:
-
-int GetXsize(){return m_WndXsiz;}
-int GetYsize(){return m_WndYsiz;}
-int SetXsize(int number){m_WndXsiz = number;}
-int SetYsize(int number){m_WndYsiz = number;}
-
-
+Window::Window(int x, int y, char *title){
+m_X = x;
+m_Y = y;
+wnd = glfwCreateWindow(x,y,title, nullptr, nullptr);
 
 }
+

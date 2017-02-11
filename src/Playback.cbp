@@ -15,6 +15,7 @@
 					<Add option="-std=c++11" />
 					<Add option="-m64" />
 					<Add option="-g" />
+					<Add option="-fpermissive" />
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
@@ -47,13 +48,13 @@
 		<Unit filename="CommentFlair.txt">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="Player.cpp" />
-		<Unit filename="Player.h" />
 		<Unit filename="devcons.cpp" />
 		<Unit filename="devcons.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="render/ogl/render_ogl3.cpp" />
 		<Unit filename="render/ogl/render_ogl3.h" />
+		<Unit filename="render/ogl/window.cpp" />
+		<Unit filename="render/ogl/window.h" />
 		<Unit filename="util.cpp" />
 		<Unit filename="util.h" />
 		<Unit filename="ver.h" />
