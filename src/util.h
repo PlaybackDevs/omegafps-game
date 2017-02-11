@@ -8,11 +8,13 @@ Copyright (c) 2017 createjump & Spectre.
 
 \*			                   */
 
+
 #include <iostream>
 
 
 #include "devcons.h"
 #include "render/ogl/window.h"
+#include "render/ogl/render_ogl3.h"
 #include "ver.h"
 
 struct Vector3 {
@@ -25,7 +27,7 @@ float x;
 float y;
 };
 
-namespace playback
+namespace FuryEng
 {
 void init();
 void Destruct();

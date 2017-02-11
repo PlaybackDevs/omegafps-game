@@ -7,13 +7,14 @@ Copyright (c) 2017 createjump & Spectre.
 \*			                   */
 
 
-
+#include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
 
 
 
-namespace playback{
+
+namespace FuryEng{
 
 namespace render{
 void RenderInit();

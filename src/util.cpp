@@ -14,13 +14,13 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 
-namespace playback
+namespace FuryEng
 {
 void init(){
 
-playback::Logger::Log("Initalizing Playback game code", "INIT", __FILE__, __LINE__);
-playback::render::RenderInit();
-playback::Logger::Log("Playback init complete", "INIT" , __FILE__, __LINE__ );
+FuryEng::Logger::Log("Initializing Playback/FuryEngine game code", "INIT", __FILE__, __LINE__);
+FuryEng::render::RenderInit();
+FuryEng::Logger::Log("Playback/FuryEngine Startup complete", "INIT" , __FILE__, __LINE__ );
 
 }
 

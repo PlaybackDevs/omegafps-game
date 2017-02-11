@@ -8,16 +8,18 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 #include "../../devcons.h"
+#define GLEW_STATIC
+#include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
 
-using namespace playback;
-using namespace playback::Logger;
+using namespace FuryEng;
+using namespace FuryEng::Logger;
 
 
 
 
-namespace playback{
+namespace FuryEng{
 
 namespace render{
 void RenderInit(){

@@ -17,17 +17,20 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 
+
 using namespace std;
 
-using namespace playback;
+using namespace FuryEng;
 
 
 
 void GameLoop(){
+glewInit();
+glewExperimental = GL_TRUE;
 glfwWindowHint(GLFW_VERSION_MAJOR, 3);
 glfwWindowHint(GLFW_VERSION_MINOR, 3);
 glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-Window w1(640, 480, "Playback 0.3 Prealpha");
+Window w1(640, 480, "Playback 0.3 Pre-Alpha");
 glfwMakeContextCurrent(w1.wnd);
 while (!glfwWindowShouldClose(w1.wnd)){
 
@@ -43,10 +46,10 @@ while (!glfwWindowShouldClose(w1.wnd)){
 
 
 int main(int argc, char *argv[]){
-playback::init();
+FuryEng::init();
 GameLoop();
-playback::Destruct();
-playback::Logger::Log("Program loop over","MAIN" ,  __FILE__ , __LINE__);
+FuryEng::Destruct();
+FuryEng::Logger::Log("Program loop over","MAIN" ,  __FILE__ , __LINE__);
 }
 
 
