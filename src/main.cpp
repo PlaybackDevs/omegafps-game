@@ -1,10 +1,22 @@
-/*			                   *\
+/*			                   		*\
 
-This file is part of Playback version 0.1 Alpha.
+This file is part of Playback version 0.4-internal-dx10.
 
 Copyright (c) 2017 createjump & Spectre.
 
-\*			                   */
+\*			                   		*/
+
+
+
+/*								*\
+File: main.cpp
+==================================
+File Details: The program's entry point. Try not to define globals here, or use graphics functions besides init.
+
+Original creator: createjump
+
+
+\*								*/
 
 
 
@@ -16,36 +28,21 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 
-
-
 using namespace std;
 
+// Use the FuryEng namespace
 using namespace FuryEng;
 
 
 
 void GameLoop(){
-glewInit();
-glewExperimental = GL_TRUE;
-glfwWindowHint(GLFW_VERSION_MAJOR, 3);
-glfwWindowHint(GLFW_VERSION_MINOR, 3);
-glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-Window w1(640, 480, "Playback 0.3 Pre-Alpha");
-glfwMakeContextCurrent(w1.wnd);
-while (!glfwWindowShouldClose(w1.wnd)){
-
-        glClear(GL_COLOR_BUFFER_BIT);
-
-
-        glfwSwapBuffers(w1.wnd);
-
-
-        glfwPollEvents();
-}
+	while (true){
+	
+	}
 }
 
 
-int main(int argc, char *argv[]){
+int _cdecl main(int argc, char *argv[]){
 FuryEng::init();
 GameLoop();
 FuryEng::Destruct();

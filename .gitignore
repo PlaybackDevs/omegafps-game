@@ -10,7 +10,7 @@
 
 # Compiled Dynamic libraries
 *.dylib
-*.dll
+
 
 # Fortran module files
 *.mod
@@ -29,16 +29,14 @@
 
 # Custom - for reasons
 
-*.layout
 *.mp4
-*.depend
-
-# Nano swp
-*.swp
 
 src/ver.h
 
-src/obj/
+src/playback/Debug
 
-src/bin
+src/playback/Release
 
+src/playback/playback.opensdf
+
+src/playback/playback.sdf
