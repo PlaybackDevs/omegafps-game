@@ -9,11 +9,21 @@ Copyright (c) 2017 createjump & Spectre.
 
 
 /*								*\
-File: file name here
+File: window.cpp
 ==================================
-File Details: file details here
+File Details: the Window class 
 
-Original creator: creator here
+Original creator: createjump
 
 
 \*								*/
+#include "render_null.h"
+#include "window.h"
+
+
+Window::Window(int x, int y, char *title){
+m_X = x;
+m_Y = y;
+
+}
+

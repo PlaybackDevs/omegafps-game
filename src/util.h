@@ -1,21 +1,39 @@
 #ifndef UTIL_INCLUDED
 #define UTIL_INCLUDED
-/*			                   *\
+/*			                   		*\
 
-This file is part of Playback version 0.1 Alpha.
+This file is part of Playback version 0.4-internal-dx10.
 
 Copyright (c) 2017 createjump & Spectre.
 
-\*			                   */
+\*			                   		*/
+
+
+
+/*								*\
+File: util.h
+==================================
+File Details: Utility section header.
+
+Original creator: createjump
+
+
+\*								*/
 
 
 #include <iostream>
 
 
 #include "devcons.h"
+#if _you_really_want_build_to_break
+// Ref to this to include your renderers.
+// but if you include window it will already include render subsystem
 #include "render/ogl/window.h"
-#include "render/ogl/render_ogl3.h"
+#endif
+#ifdef _GITVER
 #include "ver.h"
+#endif //_GITVER
+
 
 struct Vector3 {
 float x;
@@ -27,8 +45,7 @@ float x;
 float y;
 };
 
-namespace FuryEng
-{
+namespace FuryEng{
 void init();
 void Destruct();
 }

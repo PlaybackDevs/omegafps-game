@@ -1,0 +1,47 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+
+
+
+
+
+LANGUAGE 0, SUBLANG_NEUTRAL
+IDI_ICON1          ICON           ".\\res\\Icon.ico"
+
+
+
+
+LANGUAGE 0, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     0,4,0,0
+    PRODUCTVERSION  0,4,0,0
+    FILEOS          VOS_UNKNOWN
+    FILETYPE        VFT_UNKNOWN
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0
+    FILEFLAGS       0
+{
+   BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Playback Devs"
+		VALUE "FileDescription", "Playback"
+		VALUE "FileVersion", "0.4.0.0"
+		VALUE "InternalName", "Fury Engine"
+		VALUE "LegalCopyright", "© 2017 Playback Developers. Licensed under the GNU GPLv3."
+		VALUE "OriginalFilename", "playback.exe"
+		VALUE "ProductName", "Playback"
+		VALUE "ProductVersion", "0.4.0.0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+	
+}

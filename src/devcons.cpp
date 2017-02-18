@@ -1,12 +1,21 @@
-/*			                   *\
+/*			                   		*\
 
-This file is part of Playback version 0.1 Alpha.
+This file is part of Playback version 0.4-internal-dx10.
 
 Copyright (c) 2017 createjump & Spectre.
 
-\*			                   */
+\*			                   		*/
 
-// devcons.cpp: developer console things
+
+/*								*\
+File: devcons.cpp
+==================================
+File Details: The developer console routines for the Playback game core.
+
+Original creator: createjump
+
+
+\*								*/
 
 #include <iostream>
 #include <stdlib.h>
@@ -28,14 +37,14 @@ Pass __FILE__ and __LINE__ to the respective function arguments.
 
 */
 
-void Log(std::string info , std::string prog_part , char* file , int line){
+void Log(char* info , char* prog_part , char* file , int line){
 std::cout << "[INFO/" << prog_part << "] " << info << " (" << file << ":"<< line << ")"<< std::endl;
 }
-void Warning(std::string info , std::string prog_part , char* file , int line){
-std::cout << "[WARN/" << prog_part << "] " << info << " (" << file << ":"<< line << ")"<< std::endl;
+void Warning(char* info , char* prog_part , char* file , int line){
+std::cout << "[WARN" << prog_part << " ]" << info << " (" << file << ":" << line << ")" << std::endl;
 }
-void Assert(std::string info , std::string prog_part , char* file , int line){
-std::cout << "[ERROR/" << prog_part << "] " << info << " (" << file << ":"<< line << ")"<< std::endl;
+void Assert(char* info , char* prog_part , char* file , int line){
+std::cout << "[ERROR" << prog_part << " ]"  << info << " (" << file << ":"<< line << ")"<< std::endl;
 exit(1);
 }
 
