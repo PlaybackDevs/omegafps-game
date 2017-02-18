@@ -1,21 +1,13 @@
 # Playback
-A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your boat).
+A top-down medevil slasher written in C++. 
 
 # Build Instructions
 
 ## Prerequisites
-Make sure you installed your DevTools Pack for your specific platform.
-Next, make sure you have [GLFW](http://glfw.org/) and built and installed it if you aren't running Linux and GCC 5.
- 
-## Linux
-
-Install the [Linux DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSLVV6Yi1VOUZNalE) here.
-After completing first steps, and platform specific first step, open the project file, then click "Build". 
+Install Visual Studio 2013 Express. I'm serious. That's all you have to do. Well, at least until the Steamworks API is implemented.
 
 ## Windows
-
-Install the [Windows DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSR09EdU9ubG5hM0k) here. 
-After completing first steps, and platform specific first step, open the project file, then click "Build". 
+Open the "playback.sln" file.  Click "Build-> Build Solution", or press the F7 key on your keyboard.
 
 # What is the "devs_images" folder?
 That folder is used for gource. If you become a new contributer, your profile image will be put in that folder for progress report videos.
