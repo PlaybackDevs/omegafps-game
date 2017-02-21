@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "Versioning script (c) 2017 createjump."
-echo "const std::string verhash = \"$(git describe --tags --long)\";" > src/ver.h
