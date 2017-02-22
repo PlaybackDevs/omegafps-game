@@ -29,14 +29,4 @@
 
 # Custom - for reasons
 
-*.mp4
-
-src/ver.h
-
-src/playback/Debug
-
-src/playback/Release
-
-src/playback/playback.opensdf
-
-src/playback/playback.sdf
+playback-game/Temp
