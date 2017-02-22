@@ -28,5 +28,15 @@
 
 
 # Custom - for reasons
-playback-game/Temp/
-playback-game/Libary/
+
+
+# Unity stuffs
+
+# .meta files are apparently created when you load a project, so we dont need them here
+*.meta
+ 
+playback-game/Temp/*.*
+playback-game/Libary/*.*
+*.bin
+*.log
+*.info
