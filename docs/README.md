@@ -1,20 +1,15 @@
 # Playback
-A top-down medevil slasher written in C++-11 (or C++-0x, whichever floats your boat).
+
+A 3D medevil slasher written in C#/Unity. 
 Development log is [here](https://playbackdevs.github.io/playback-game/devlog).
 
 # Build Instructions
 
 ## Prerequisites
-Make sure you installed your DevTools Pack for your specific platform.
-Next, make sure you have [GLFW](http://glfw.org/) and built and installed it if you aren't running Linux and GCC 5.
- 
-## Linux
-
-Install the [Linux DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSLVV6Yi1VOUZNalE) here.
-After completing first steps, and platform specific first step, open the project file, then click "Build". 
-
+Install Unity [here.](https://unity3d.com/)
 ## Windows
 
-Install the [Windows DevTools Pack](https://drive.google.com/open?id=0B28NeVjWwwgSR09EdU9ubG5hM0k) here. 
-After completing first steps, and platform specific first step, open the project file, then click "Build".
+Open the project in Unity.
+
+
 
