@@ -1,0 +1,1 @@
+C:\dev\playback-game\playback-game\playback-game\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
