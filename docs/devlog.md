@@ -1,5 +1,14 @@
 # Playback Development Log
 
+## 3/29/17 Photoshop and Maya 2016 (Spectre)
+
+Sorry for the long wait time, but we've been working really hard and we simply don't have time
+
+to update, as well as updating our modeling pipeline with Maya 2016 and Adobe Photoshop CC 2015.
+
+Signing off, -Spectre
+
+
 
 ## 2/21/17 Unity switch (createjump)
 
