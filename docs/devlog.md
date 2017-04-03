@@ -1,5 +1,13 @@
 # Playback Development Log
 
+## 4/3/17 Change of Direction (createjump)
+
+Originally Playback was going to be a medevil slasher. Today me and Spectre are annoucing a change of plans.
+
+It is becoming a open world survival game. There will be a singleplayer campign, and a multiplayer open world survival expirence.
+
+Signing off, -createjump
+
 ## 3/29/17 Photoshop and Maya 2016 (Spectre)
 
 Sorry for the long wait time, but we've been working really hard and we simply don't have time
