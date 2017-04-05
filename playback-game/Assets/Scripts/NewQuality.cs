@@ -48,7 +48,7 @@ public class NewQuality : MonoBehaviour {
 
 			} else if (QualitySettings.GetQualityLevel() == 6 ) {
 			QualityText.text = "High";
-			Slidah.value = 3j;
+			Slidah.value = 3;
 		}
 
 	}
