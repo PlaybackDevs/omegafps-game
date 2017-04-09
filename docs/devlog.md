@@ -1,5 +1,12 @@
 # Playback Development Log
 
+## 4/9/17 New versioning scheme (createjump)
+
+Today marks the day a new versioning scheme is being implemented.
+
+Explanition is [here](https://playbackdevs.github.io/playback-game/versch).
+
+
 ## 4/3/17 Change of Direction (createjump)
 
 Originally Playback was going to be a medevil slasher. Today me and Spectre are annoucing a change of plans.
