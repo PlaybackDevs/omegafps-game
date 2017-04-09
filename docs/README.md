@@ -3,7 +3,7 @@
 A 3D shooter written in C#/Unity. 
 
 Development log is [here](https://playbackdevs.github.io/playback-game/devlog).
-Versiong scheme is [here](https://playbackdevs.github.io/playback-game/verscheme).
+Versioning scheme is [here](https://playbackdevs.github.io/playback-game/versch).
 
 # Build Instructions
 
