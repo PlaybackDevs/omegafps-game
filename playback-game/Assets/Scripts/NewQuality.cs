@@ -1,4 +1,23 @@
-﻿using System.Collections;
+﻿/*			                   		*\
+
+This source code is part of Playback version 0.5.
+
+Copyright (c) 2017 createjump & Spectre.
+
+\*			                   		*/
+
+
+
+/*								*\
+File: NewQuality.cs
+==================================
+File Details: Unity quality management. 
+
+Original creator: createjump
+
+
+\*								*/
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -6,13 +25,16 @@ using UnityEngine;
 public class NewQuality : MonoBehaviour {
 
 	public UnityEngine.UI.Slider Slidah;
+	
 	public UnityEngine.UI.Text QualityText;
-	// Use this for initialization
+	
+	
 	void Start() {
 		Slidah.onValueChanged.AddListener (delegate {
 			SetQuality ();
 		});
 		Slidah.onValueChanged.AddListener (delegate {
+
 			SetQualityText ();
 		});
 	}

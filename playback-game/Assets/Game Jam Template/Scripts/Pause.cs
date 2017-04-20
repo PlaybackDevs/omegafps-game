@@ -5,7 +5,7 @@ public class Pause : MonoBehaviour {
 
 
 	private ShowPanels showPanels;						//Reference to the ShowPanels script used to hide and show UI panels
-	private bool isPaused;								//Boolean to check if the game is paused or not
+	public bool isPaused;								//Boolean to check if the game is paused or not
 	private StartOptions startScript;					//Reference to the StartButton script
 	
 	//Awake is called before Start()
@@ -27,10 +27,17 @@ public class Pause : MonoBehaviour {
 			DoPause();
 		} 
 		//If the button is pressed and the game is paused and not in main menu
-		else if (Input.GetButtonDown ("Cancel") && isPaused && !startScript.inMainMenu) 
+		else if (Input.GetButtonDown ("Cancel") && isPaused && !startScript.inMainMenu ) 
 		{
-			//Call the UnPause function to unpause the game
-			UnPause ();
+            //Call the UnPause function to unpause the game
+            if (showPanels.IsOptionsOpen())
+            {
+                // well this is pretty damn obvious, dont close the menu
+            }
+            else
+            {
+                UnPause();
+            }
 		}
 	
 	}
